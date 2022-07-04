@@ -6,9 +6,12 @@
     max-width: 60rem;
     border-radius: 2rem;
     h2 {
-        border-radius: 2rem 0;
-        padding-bottom: 1rem;
+        border-radius: 2rem 2rem 0 0;
+        padding: 1rem;
         background-color: map-get($colores, "violeta");
+    }
+    p {
+        padding: 1rem;
     }
 }
     
@@ -64,6 +67,12 @@
         margin: 1rem;
         .formulario__terminos {
             color:$blanco;
+            a {
+                color: $negro;
+                &:hover {
+                    color: red;
+                }
+            }
         }        
     }
     
