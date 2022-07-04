@@ -13,7 +13,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .dibujo {
-        background-color: var(--secundario);
+        background-color: $secundario;
         border-radius:2rem;
         margin-top: 1rem;
         .dibujo__imagen {
@@ -23,12 +23,12 @@
                 &:hover {
                     transform: scale(1.1);
                     border-radius: 2rem;
-                    box-shadow:0 1px 3rem white;
+                    box-shadow:0 1px 3rem $tercero;
                 }
             }
         }
         .dibujo__texto {
-            color: var(--blanco);
+            color:$blanco;
             text-align: center;
         }            
     }

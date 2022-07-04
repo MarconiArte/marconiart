@@ -47,6 +47,20 @@ h3 {
 .no-margin {
   margin: 0; }
 
+.box-pedidos, .pedidos {
+  background-color: transparent;
+  box-shadow: 0 1px 3rem #5A189A; }
+
+.pedidos {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 60rem;
+  border-radius: 2rem; }
+  .pedidos h2 {
+    padding-bottom: 1rem;
+    background-color: #5A189A; }
+
 .formulario {
   background-color: #5A189A;
   border-radius: 2rem;
@@ -85,11 +99,13 @@ h3 {
         flex-direction: row;
         justify-content: space-evenly; } }
     .formulario .formulario__campo--activo .boton {
+      background-color: #240046;
+      color: #FFFFFF;
+      padding: 2rem;
       border: none;
-      padding: 1rem;
-      border-radius: 1rem; }
+      border-radius: 4rem; }
       .formulario .formulario__campo--activo .boton:hover {
-        background-color: #b9b9b9; }
+        background-color: #02010a; }
   .formulario .formulario__campo--acuerdo {
     display: flex;
     justify-content: center;
@@ -130,7 +146,7 @@ h3 {
     .dibujo__grid {
       grid-template-columns: repeat(3, 1fr); } }
   .dibujo__grid .dibujo {
-    background-color: var(--secundario);
+    background-color: #240046;
     border-radius: 2rem;
     margin-top: 1rem; }
     .dibujo__grid .dibujo .dibujo__imagen {
@@ -140,9 +156,9 @@ h3 {
         .dibujo__grid .dibujo .dibujo__imagen:hover {
           transform: scale(1.1);
           border-radius: 2rem;
-          box-shadow: 0 1px 3rem white; } }
+          box-shadow: 0 1px 3rem #5A189A; } }
     .dibujo__grid .dibujo .dibujo__texto {
-      color: var(--blanco);
+      color: #FFFFFF;
       text-align: center; }
 
 .header {
@@ -257,7 +273,8 @@ h3 {
       font-size: 1.5rem;
       margin-top: 0.5rem; }
       .form__index form div .btn:hover {
-        box-shadow: 0 1px 3rem #5A189A; }
+        box-shadow: 0 1px 3rem #5A189A;
+        background-color: #5A189A; }
 
 .footer {
   background-color: transparent;

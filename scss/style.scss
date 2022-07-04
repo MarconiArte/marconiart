@@ -1,4 +1,6 @@
 @import "./base/globales";
+@import "./base/mixins";
+@import "./base/extends";
 @import "./pages/pedidos";
 @import "./pages/dibujos";
 @import "./components/header";
@@ -8,6 +10,7 @@
 @import "./components/carruselcomen";
 @import "./pages/nosotros";
 @import "./pages/diseños";
+
 
 /* Portafolio - en breve lo fletamos */
 @media (min-width: 768px) {

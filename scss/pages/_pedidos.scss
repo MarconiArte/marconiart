@@ -1,10 +1,24 @@
+.pedidos {
+    @extend .box-pedidos;
+    color:$blanco;
+    text-align: center;
+    margin:2rem auto;
+    max-width: 60rem;
+    border-radius: 2rem;
+    h2 {
+        border-radius: 2rem 0;
+        padding-bottom: 1rem;
+        background-color: map-get($colores, "violeta");
+    }
+}
+    
 .formulario {
     background-color:$tercero;
     border-radius: 2rem;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    width:100%;
+    width: 100%;
     padding-bottom: 1rem;
     margin-top: 1rem;
     @media (min-width:768px) {
@@ -39,12 +53,7 @@
             justify-content: space-evenly;
         }
         .boton {
-            border: none;
-            padding: 1rem;
-            border-radius: 1rem;
-            &:hover {
-                background-color: rgb(185, 185, 185);
-            }
+            @include bts;
         }
     }
     .formulario__campo--acuerdo {
