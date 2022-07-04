@@ -1,0 +1,20 @@
+.navegacion {
+    background-color:$secundario;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    @media (min-width:768px) {
+        flex-direction: row;
+        padding: 0 5rem
+    }
+    .navegacion__enlace {
+        color:$blanco;
+        padding: 1rem;
+        &:hover {
+            background-color:$tercero;
+            border-radius: 0 0 10px 10px;
+        }
+    }
+}

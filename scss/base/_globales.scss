@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
+$primario:#02010a;
+$secundario: #240046;
+$tercero:#5A189A;
+$blanco:#FFFFFF;
+$negro:#000;
+
+$fuenteHeading: 'PT Sans', sans-serif;
+$fuenteParrafos: 'Open Sans', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color:$primario;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family:$fuenteParrafos;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color:$blanco;
+    }
+}
+
+img {width: 100%;}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family:$fuenteHeading;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 3.2rem; }
+h3 { font-size: 2.4rem; }
+
+.border_ {
+    border-radius: 2rem;
+}
+.no-margin {
+    margin:0;
+}

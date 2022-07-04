@@ -1,0 +1,32 @@
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    .barra {
+        text-align: center;
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: left;
+        }
+
+        .logo {
+            color:$blanco;
+            .logo__nombre {font-weight: 400;
+                &:hover {
+                    color: $blanco;
+                }
+            }
+            .logo__bold {font-weight: bold;}
+        }
+    }
+    .header__texto {
+        text-align: center;
+        color:$blanco;
+        margin-top: 20rem;
+    }
+}
+
+
+

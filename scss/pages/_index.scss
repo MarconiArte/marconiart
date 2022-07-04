@@ -1,0 +1,90 @@
+.carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    .img__carrusel {
+        width: 50%;
+    }
+}
+
+.contenido__gabihh {
+    background-color:$tercero;
+    padding: 2rem;
+    text-align: center;
+    border-top: 0.5rem solid $blanco;
+    .gabihh__titulo {
+        background-color:$secundario;
+        color:$blanco;
+        padding:1rem;
+        margin-bottom: 1rem;
+        border-radius: 2rem;
+    }
+    .gabi__grid {   /* Para mobile */
+        display:flex;
+        flex-direction: column;
+        .gabihh__parrafo, .nosotros__parrafo {
+            background-color:&secundario;
+            color:$blanco;
+            padding: 0.5rem;
+            margin: 0.5rem;
+            border-radius: 0.5rem;
+            font-size: 2.5rem;
+        }
+        @media (min-width: 768px) {
+            .gabihh__parrafo {
+                width: 100rem;
+            }
+        }        
+        .videogabi {
+            width: 100%;
+            border-radius: 2rem;
+        }
+    }
+    @media (min-width: 768px) { /*Para escritorio*/
+        .gabi__grid {
+            flex-direction: row;
+        }
+    }
+}
+
+.form__index {
+    background-color: transparent;
+    border-radius: 2rem;
+    margin: 4rem 2rem;
+    box-shadow:0 1px 3rem $tercero;
+    max-width: 60rem;
+    margin: 4rem auto;
+    h2 {
+        background-color: $tercero;
+        text-align: center;
+        padding: 1rem;
+        color: $blanco;
+        border-radius: 2rem 2rem 0 0;
+    }
+    form {
+        padding:1rem 2rem 2rem 2rem;
+        div {
+            textarea {
+                resize: none;
+            }
+
+            .btn {
+                background-color: transparent;
+                border: 1px solid $tercero;
+                padding: 2rem;
+                border-radius: 10rem;
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top: 0.5rem;
+                &:hover {
+                    box-shadow:0 1px 3rem $tercero;
+                }
+            }
+        }
+        color:$blanco;
+    }
+}
+
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Marconi Arte</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="../index.html" class="logo">
+                    <h1 class="logo__nombre no-margin">Marconi<span class="logo__bold">Arte</span></h1>
+                </a>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">¿Estás buscando un diseño o ilustracion?</h2>
+            <p class="no-margin">Diseñador Freelancer e ilustrador digital, todo tipo de ilustraciones y diseños.</p>
+        </div>
+    </header>
+    
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="../index.html">Inicio</a>
+        <a class="navegacion__enlace" href="portafolio.html">Portafolio</a>
+        <a class="navegacion__enlace" href="pedidos.html">Pedidos</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace" href="comentarios.html">Comentarios</a>
+    </nav>
+
+    <main>
+            <form class="formulario contenedor" action="#">
+                <h4 class="formulario__titulo">Llena el formulario para realizar el pedido.</h4>
+                <div class="formulario__campo">
+                        <input class="formulario__input" id="nombre" type="text" placeholder="Escriba su nombre">
+                </div> <!--Label e input-->
+
+                <div class="formulario__campo">
+                        <input class="formulario__input" id="email" type="text" placeholder="Escriba su mail">
+                </div> <!--Label e input-->
+                
+                <div class="formulario__campo">
+                        <textarea class="formulario__input" id="observaciones" placeholder="Detalla como queres la ilustracion"></textarea>
+                </div> <!--Label e input-->
+
+                <div class="formulario__campo">
+                    <select class="formulario__select">
+                        <option disabled selected>Selecciona un estilo</option>
+                        <option>Anime</option> 
+                        <option>Manga</option>
+                        <option>Realista</option>
+                    </select>
+                </div>
+                <div class="formulario__campo--acuerdo">
+                    <p class="formulario__terminos">Estoy de acuerdo con los <a class="formulario__terminos--a" href="terminosycondiciones.html">Terminos y Condiciones</a></p>
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+                <div class="formulario__campo--activo">
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Resetear">
+                </div> <!--Botones-->
+            </form>
+    </main>
+
+    <footer class="footer">
+        <div class="icono__footer">
+            <a href="https://www.instagram.com/marconiarte/" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+            </a>
+        </div>
+        <div class="icono__footer">
+            <a href="https://www.youtube.com/channel/UC4ySSpv7phgdxu_4ceJNAtw/featured"
+            target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/>
+            </a>
+        </div>
+        <div class="icono__footer">
+            <a href="https://twitter.com/Marconi430" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

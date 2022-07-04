@@ -1,0 +1,32 @@
+@import "./base/globales";
+@import "./pages/pedidos";
+@import "./pages/dibujos";
+@import "./components/header";
+@import "./components/navbar";
+@import "./pages/index";
+@import "./components/footer";
+@import "./components/carruselcomen";
+@import "./pages/nosotros";
+@import "./pages/diseños";
+
+/* Portafolio - en breve lo fletamos */
+@media (min-width: 768px) {
+    .portafolio, .portafolio__enlace {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    
+}
+
+.portafolio__imagen {
+    width: 90%;
+    border-radius: 100rem;
+}
+
+.contenedor__titulo {
+    background-color: $tercero;
+    color:$blanco;
+    text-align: center;
+    border-radius: 2rem;
+}

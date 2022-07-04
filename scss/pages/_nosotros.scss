@@ -1,0 +1,55 @@
+.nosotros, .nosotros--activo {
+    background-color:$tercero;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 1rem;
+    .nosotros__imagen {
+        width: 50%;
+        height: 20%;
+    }
+    .nosotros__parrafo {
+        background-color:transparent;
+        padding: 1rem;
+        color:$blanco;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .nosotros {
+        flex-direction: row;
+    }
+    .nosotros:hover {
+        background-color:$secundario;
+    }
+    .nosotros__imagen {
+        width: 40%;
+        height: 100%;
+    }
+    .nosotros__parrafo {
+        background-color:transparent;
+        padding: 1rem;
+    }
+}
+.nosotros--activo {
+    display: flex;
+    .nosotros__imagen--activo {
+        width: 40%;
+        border-radius: 40rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .nosotros--activo {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .nosotros--activo:hover {
+        background-color:$secundario;
+    }
+}
+

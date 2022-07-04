@@ -1,0 +1,19 @@
+.carrusel__comentarios {
+    background-color: $blanco;
+    margin: 1rem;
+    .card {
+        border: none;
+        background-color: $tercero;
+        color:$blanco;
+        padding: 1rem;
+        img {
+            margin: 0 auto;
+            width: 75%;
+        }
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+
+}
