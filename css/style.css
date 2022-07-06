@@ -218,12 +218,15 @@ h3 {
   margin: 1rem 0; }
   .carrusel .img__carrusel {
     width: 50%; }
+  @media (max-width: 768px) {
+    .carrusel {
+      display: none; } }
 
 .contenido__gabihh {
   background-color: #5A189A;
   padding: 2rem;
   text-align: center;
-  border-top: 0.5rem solid #FFFFFF; }
+  margin-top: 2rem; }
   .contenido__gabihh .gabihh__titulo {
     background-color: #240046;
     color: #FFFFFF;

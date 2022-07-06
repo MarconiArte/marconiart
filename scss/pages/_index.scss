@@ -6,13 +6,17 @@
     .img__carrusel {
         width: 50%;
     }
+    @media (max-width:768px){
+        display:none;
+    }
+    
 }
 
 .contenido__gabihh {
     background-color:$tercero;
     padding: 2rem;
     text-align: center;
-    border-top: 0.5rem solid $blanco;
+    margin-top: 2rem;
     .gabihh__titulo {
         background-color:$secundario;
         color:$blanco;
